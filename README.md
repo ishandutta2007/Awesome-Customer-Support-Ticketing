@@ -1,6 +1,6 @@
 # Awesome-Customer-Support-Ticketing
 
-# Top Customer Support Ticketing Ecosystem
+## Top Customer Support Ticketing Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
 *Focused on Ticket Management, Shared Inboxes & Omnichannel Support*  
