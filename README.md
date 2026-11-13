@@ -1,32 +1,49 @@
-# Awesome Customer Support Ticketing [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+<div align="center">
 
-> A curated list of top **Customer Support Ticketing Systems**, **Helpdesk Platforms**, and **Shared Inboxes** across both enterprise SaaS solutions and open-source self-hosted GitHub projects.
+<img src="./assets/banner.svg" alt="Awesome Customer Support Ticketing Banner" width="100%" />
 
-Comprehensive guide for customer support managers, IT service desk leads, sysadmins, and software engineers seeking ticket management platforms, SLA monitoring, multi-channel customer communication tools, and data-sovereign helpdesks.
+# 🎫 Awesome Customer Support Ticketing
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://awesome.re/badge.svg" alt="Mentioned in Awesome" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Customer-Support-Ticketing/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Customer-Support-Ticketing?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Customer-Support-Ticketing/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Customer-Support-Ticketing?style=social" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
+
+<p align="center">
+  <strong>🌟 A curated directory of top-tier Customer Support Ticketing Systems, Helpdesk Platforms, and Shared Inboxes across enterprise SaaS suites and data-sovereign open-source GitHub projects. 🌟</strong>
+</p>
+
+</div>
 
 ---
 
-## Table of Contents
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS & Hosted Platforms](#saas--hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [Architecture & Self-Hosting Considerations](#architecture--self-hosting-considerations)
-- [How to Contribute](#how-to-contribute)
-- [License & Disclaimer](#license--disclaimer)
+## 📑 Table of Contents
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS & Hosted Platforms](#️-saas--hosted-platforms)
+- [⚡ Open-Source GitHub Projects](#-open-source-github-projects)
+- [🛠️ Architecture & Self-Hosting Considerations](#️-architecture--self-hosting-considerations)
+- [📈 Star History](#-star-history)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [📜 License & Disclaimer](#-license--disclaimer)
 
 ---
 
-## Sector Overview & Market Dynamics
+## 📊 Sector Overview & Market Dynamics
 
 The global customer support ticketing and helpdesk software market is valued at approximately **$8 billion to $15 billion** (scaling past **$50 billion** when accounting for the broader CRM and customer service software sector), expanding at an estimated **8% to 10% CAGR**. The market structure is **moderately fragmented overall but consolidated at the enterprise tier**: mega-platforms (such as ServiceNow, Atlassian, Zendesk, and Freshworks) dominate large-enterprise spend due to deep ecosystem lock-in, omnichannel voice/chat routing, and proprietary generative AI investments, while a vibrant, fragmented long tail of specialized SaaS and self-hosted open-source software serves SMBs, privacy-conscious teams, and developer-centric organizations seeking data sovereignty.
 
 ---
 
-## SaaS & Hosted Platforms
+## ☁️ SaaS & Hosted Platforms
 
-| Product | Company Size (Rev / Valuation) | Pricing (Starting Paid Tier) | Free Tier / Free Trial Limits | Description |
+| 🏢 Product | 📈 Scale (Rev / Valuation) | 💳 Pricing (Starting Paid Tier) | 🎁 Free Tier / Free Trial Limits | 📝 Description |
 |:---|:---|:---|:---|:---|
-| **[ServiceNow CSM](https://www.servicenow.com/)** | ~$15.4B TTM Rev / ~$112B MCap | Standard: **$100/agent/month** (annual contract) | **No free tier**; 14-day guided proof-of-concept trial via enterprise sales. | Enterprise-grade digital workflow engine providing ITIL-aligned case management, omni-channel routing, field service coordination, and AI assist. |
+| **[ServiceNow CSM](https://www.servicenow.com/)** | ~$15.4B TTM Rev / ~$112B MCap | Standard: **$100/agent/month** (annual contract) | **No free tier**; 14-day guided proof-of-concept trial via enterprise sales. | Enterprise-grade digital workflow engine providing ITIL-aligned case management, omnichannel routing, field service coordination, and AI assist. |
 | **[Jira Service Management](https://www.atlassian.com/software/jira/service-management)** | ~$6.57B FY26 Rev / ~$42B MCap | Standard: **$23.73/agent/month** (billed annually) | **Free plan forever**: up to 3 agents, unlimited customers, 2 GB file storage, and 100 email notifications/day. | Atlassian's ITSM and customer service platform built natively on Jira, featuring incident/problem management, asset tracking, and native Confluence integration. |
 | **[Zoho Desk](https://www.zoho.com/desk/)** | ~$1.5B Rev / ~$12B Est. Val | Standard: **$14/agent/month** (billed annually) | **Free plan forever**: up to 3 agents, basic email ticketing, customer management, and private knowledge base. 15-day free trial on paid plans (no credit card required). | Context-aware cloud ticketing system with multi-department support, SLA escalations, Zia AI, and deep integration with the Zoho SaaS suite. |
 | **[Zendesk Support](https://www.zendesk.com/)** | ~$2.0B ARR / ~$10.2B Acq. Val | Support Team: **$19/agent/month** (billed annually) | **No free tier**; 14-day full-featured free trial with sample data and test ticketing access (no credit card required). | Industry-benchmark customer service software offering unified ticket queues, multi-channel intake, trigger-based automations, and outcome-based AI. |
@@ -39,11 +56,11 @@ The global customer support ticketing and helpdesk software market is valued at 
 
 ---
 
-## Open-Source GitHub Projects
+## ⚡ Open-Source GitHub Projects
 
 Curated list of production-ready open-source helpdesks, shared inboxes, and ITSM ticketing engines, sorted by GitHub stargazers:
 
-| Project | Stars | Language / Tech Stack | License | Key Highlights |
+| 📦 Project | ⭐ Stars | 💻 Language / Tech Stack | ⚖️ License | 🚀 Key Highlights |
 |:---|:---:|:---|:---|:---|
 | **[Chatwoot](https://github.com/chatwoot/chatwoot)** | [![Stars](https://img.shields.io/github/stars/chatwoot/chatwoot?style=social&color=white)](https://github.com/chatwoot/chatwoot/stargazers) | Ruby / Vue.js | MIT | Leading open-source omnichannel customer engagement platform. Unifies live chat, email, WhatsApp, Facebook, Instagram, and Telegram into a real-time conversational inbox with multi-agent collision avoidance and AI assistance. |
 | **[UVdesk](https://github.com/uvdesk/community-skeleton)** | [![Stars](https://img.shields.io/github/stars/uvdesk/community-skeleton?style=social&color=white)](https://github.com/uvdesk/community-skeleton/stargazers) | PHP / Symfony | MIT | Modular and extensible enterprise-grade helpdesk system. Features automated email-to-ticket conversion, ticket dispatching workflows, customizable customer portals, and mailbox integrations. |
@@ -58,40 +75,59 @@ Curated list of production-ready open-source helpdesks, shared inboxes, and ITSM
 | **[Libredesk](https://github.com/abhinavxd/libredesk)** | [![Stars](https://img.shields.io/github/stars/abhinavxd/libredesk?style=social&color=white)](https://github.com/abhinavxd/libredesk/stargazers) | Go / SQLite | AGPL-3.0 | Single-binary, self-hosted customer support desk and live chat system written in Go. Minimal resource footprint, zero external database requirements, and rapid deployment. |
 | **[Helpy](https://github.com/helpyio/helpy)** | [![Stars](https://img.shields.io/github/stars/helpyio/helpy?style=social&color=white)](https://github.com/helpyio/helpy/stargazers) | Ruby on Rails / PostgreSQL | MIT | Mobile-friendly, modern open-source helpdesk software with integrated knowledge base, multi-lingual support, email ticketing queues, and community discussion boards. |
 | **[Trudesk](https://github.com/polonel/trudesk)** | [![Stars](https://img.shields.io/github/stars/polonel/trudesk?style=social&color=white)](https://github.com/polonel/trudesk/stargazers) | JavaScript / Node.js / MongoDB | Apache-2.0 | Clean, real-time open-source helpdesk platform with built-in chat, ticket assignment, dashboard analytics, and notifications via WebSockets. |
-| **[iTop](https://github.com/Combodo/iTop)** | [![Stars](https://img.shields.io/github/stars/Combodo/iTop)?style=social&color=white](https://github.com/Combodo/iTop/stargazers) | PHP / MySQL | AGPL-3.0 | ITIL-compliant IT Service Management (ITSM) tool with a comprehensive Configuration Management Database (CMDB), helpdesk ticketing, change management, and service catalog. |
+| **[iTop](https://github.com/Combodo/iTop)** | [![Stars](https://img.shields.io/github/stars/Combodo/iTop?style=social&color=white)](https://github.com/Combodo/iTop/stargazers) | PHP / MySQL | AGPL-3.0 | ITIL-compliant IT Service Management (ITSM) tool with a comprehensive Configuration Management Database (CMDB), helpdesk ticketing, change management, and service catalog. |
 | **[Request Tracker (RT)](https://github.com/bestpractical/rt)** | [![Stars](https://img.shields.io/github/stars/bestpractical/rt?style=social&color=white)](https://github.com/bestpractical/rt/stargazers) | Perl / PostgreSQL / MySQL | GPL-2.0 | Enterprise-grade issue tracking and ticketing system deployed worldwide by Fortune 500s and government entities. Offers fine-grained access control, PGP/S-MIME encryption, and custom workflow scrips. |
 | **[OTOBO](https://github.com/RotherOSS/otobo)** | [![Stars](https://img.shields.io/github/stars/RotherOSS/otobo?style=social&color=white)](https://github.com/RotherOSS/otobo/stargazers) | Perl / MariaDB | GPL-3.0 | Enterprise IT service desk and ticket management platform forked from OTRS. Features ITIL-aligned service management, CMDB, customer self-service portal, and OpenID Connect / SAML authentication. |
 | **[Helpdock](https://github.com/Docker-Hunterpedia/Helpdock)** | [![Stars](https://img.shields.io/github/stars/Docker-Hunterpedia/Helpdock?style=social&color=white)](https://github.com/Docker-Hunterpedia/Helpdock/stargazers) | TypeScript / Next.js / Docker | MIT | Multi-brand self-hosted support platform featuring AI-assisted ticket resolution, help center CMS, live chat widget, and automated data importers for Zendesk, Freshdesk, and Zoho Desk. |
 
 ---
 
-## Architecture & Self-Hosting Considerations
+## 🛠️ Architecture & Self-Hosting Considerations
 
 When evaluating self-hosted ticketing systems vs. managed SaaS platforms, consider total cost of ownership (TCO) and operational requirements:
 
-- **Resource Footprint**:
+- **💾 Resource Footprint**:
   - *Lightweight (< 2 GB RAM)*: **Libredesk** (single Go binary), **FreeScout** (PHP/Laravel), and **osTicket** run smoothly on low-cost VPS instances or shared hosting.
   - *Mid to Heavy (4–16 GB RAM)*: **Zammad** (requires Elasticsearch + Redis + PostgreSQL/MySQL), **GLPI**, and **OTOBO** demand dedicated resources for indexing, complex search, and asset relationship mapping.
-- **Data Sovereignty & Compliance**: Self-hosted solutions provide strict boundary control over Personally Identifiable Information (PII), customer communication archives, and HIPAA/GDPR data residency obligations without vendor lock-in.
-- **Email Deliverability**: Ensure proper SPF, DKIM, DMARC, and reverse DNS records are configured when hosting SMTP/IMAP-driven ticket engines.
+- **🔒 Data Sovereignty & Compliance**: Self-hosted solutions provide strict boundary control over Personally Identifiable Information (PII), customer communication archives, and HIPAA/GDPR data residency obligations without vendor lock-in.
+- **✉️ Email Deliverability**: Ensure proper SPF, DKIM, DMARC, and reverse DNS records are configured when hosting SMTP/IMAP-driven ticket engines.
 
 ---
 
-## How to Contribute
+## 📈 Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Customer-Support-Ticketing&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Customer-Support-Ticketing&type=date&legend=top-left)
+
+---
+
+## 💖 Support & Sponsorship
+
+Thank you so much for exploring and using **Awesome Customer Support Ticketing**! 🚀
+
+If you found this curated list helpful for your team, organization, or infrastructure project, please consider showing your support:
+
+- ⭐ **Star the repository** to boost discoverability on GitHub.
+- 🍴 **Fork the repo** to contribute your favorite tools and help keep entries up to date.
+- 📢 **Share with colleagues, IT leads, and DevOps engineers** on LinkedIn, X/Twitter, or Reddit.
+- ☕ **Buy a coffee & sponsor the author**: Support ongoing maintenance and curation on the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## 🤝 How to Contribute
 
 Contributions, project suggestions, and documentation fixes are warmly welcomed!
 
-1. Fork this repository.
-2. Create a descriptive feature branch (`git checkout -b add-new-ticketing-tool`).
-3. Add your suggested SaaS product or open-source repository following the table formatting:
+1. 🍴 Fork this repository.
+2. 🌿 Create a descriptive feature branch (`git checkout -b add-new-ticketing-tool`).
+3. ✍️ Add your suggested SaaS product or open-source repository following the table formatting:
    - For SaaS: Product name, official link, company size (revenue/valuation), specific starting price, exact free tier / trial terms, and concise description.
    - For Open-Source: GitHub repo URL, star badge `[![Stars](https://img.shields.io/github/stars/<owner>/<repo>?style=social&color=white)](https://github.com/<owner>/<repo>/stargazers)`, primary language/stack, license, and key highlights.
-4. Verify all markdown links and ensure proper chronological or sorted order.
-5. Commit your changes and open a Pull Request.
+4. 🔍 Verify all markdown links and ensure proper chronological or sorted order.
+5. 🚀 Commit your changes and open a Pull Request.
 
 ---
 
-## License & Disclaimer
+## 📜 License & Disclaimer
 
 - Distributed under the [Creative Commons CC0 1.0 Universal](LICENSE) (Public Domain Dedication).
 - Pricing figures, trial terms, and market valuations are approximate, compiled from publicly available investor disclosures, corporate filings, and vendor sites as of 2025/2026. Always confirm current rates directly with product vendors prior to commercial procurement.
