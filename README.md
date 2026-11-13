@@ -1,78 +1,97 @@
-# Awesome-Customer-Support-Ticketing
+# Awesome Customer Support Ticketing [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-## Top Customer Support Ticketing Ecosystem
+> A curated list of top **Customer Support Ticketing Systems**, **Helpdesk Platforms**, and **Shared Inboxes** across both enterprise SaaS solutions and open-source self-hosted GitHub projects.
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-*Focused on Ticket Management, Shared Inboxes & Omnichannel Support*  
-**Last updated: March 2026**
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Customer Support Ticketing**. These tools help support teams capture, organize, and resolve customer requests across email, chat, and web forms—consolidating conversations into a single queue with assignment rules, SLAs, and reporting so nothing falls through the cracks.
-
-**Examples** include Zoho Desk, Zendesk Support, Freshdesk, ServiceNow CSM, Help Scout, Front, Jira Service Management, Kayako, LiveAgent, Deskpro, and open-source alternatives like Chatwoot, Zammad, FreeScout, and Helpdock (the category leaders).
-
-**Open-source emphasis**: This section highlights every major active project for self-hosted ticketing systems, open-source shared inboxes, and community-driven helpdesk platforms—ideal for organizations seeking data sovereignty and eliminating per-agent licensing costs. The open-source ticketing landscape is mature and production-ready: **Chatwoot** leads as the omnichannel conversational default (28k+ stars, MIT) , **Zammad** offers the cleanest interface closest to commercial SaaS , **FreeScout** runs on minimal hardware (1–2 GB RAM) , and **Helpdock** provides a modern multi-brand platform with built-in AI and importers for Zendesk, Freshdesk, and Zoho Desk .
-
-Contributions welcome! Open an PR to add/update entries. Keep descriptions factual and link to official sites.
-
-## Table of Contents
-- [SaaS/Hosted Platforms](#saas-products)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## SaaS/Hosted Platforms
-
-| Product | Description | Pricing (Starting) | Free Tier / Trial Limits |
-|---------|-------------|-------------------|--------------------------|
-| **[Zoho Desk](https://www.zoho.com/desk/)** | Context-aware helpdesk with email ticketing, social channels, SLAs, workflow automation, and Zia AI (on higher tiers). Standard tier supports unlimited agents and adds public self-service, messaging, and Answer Bot . | Standard: **$14/agent/month** (annual); Express: $7; Professional: $23; Enterprise: $40  | **Free**: up to 3 agents, basic email ticketing; **15-day free trial** (auto-downgrades to Free, no credit card)  |
-| **[Zendesk Support](https://www.zendesk.com/)** | Industry-standard ticketing platform with mature omnichannel queues and broad integration ecosystem. **Standalone Support Team is $19/agent/month** (annual), distinct from Suite pricing. Zendesk is transitioning to **Outcome AI Platform** with outcome-based pricing (unlimited seats, pay for eligible outcomes) in Early Access . | Support Team: **$19/agent/month** (annual); Suite Team: $55  | No free tier; trial via sales. AI resolution allowances vary by account  |
-| **[Freshdesk](https://www.freshworks.com/freshdesk/)** | Cloud helpdesk with Freddy AI for automated responses, routing, and agent assistance. Growth tier covers core support; Pro adds custom dashboards; Enterprise adds skill-based routing and audit logs . | Growth: **$29/agent/month** (annual); Pro: $79; Enterprise: $119  | No permanent free tier; **14-day trial** (Enterprise plan access). Freddy AI Agent: 500 free sessions, then $49/100  |
-| **[Help Scout](https://www.helpscout.com/)** | Shared inbox focused on conversation quality. Standard adds AI Inbox assistant; Plus adds unlimited AI Drafts. **Docs costs $10/user/month extra on Standard**—making Standard+Docs ($35) nearly comparable to Plus ($50) . | Standard: **$25/user/month** (annual); Plus: $50; Pro: $65  | **Free**: 5 users, 1 Inbox, 1 Docs site  |
-| **[Front](https://front.com/)** | Collaborative inbox for shared email, chat, and messaging. Starter supports single channel type; Professional adds omnichannel and macros. **14-day trial of Professional** (no credit card) . | Starter: **$25/seat/month**; Professional: $65; Enterprise: $105  | **14-day free trial** of Professional  |
-| **[Jira Service Management](https://www.atlassian.com/software/jira/service-management)** | Atlassian's service management platform. **Free tier: 3 agents, unlimited customers**. Premium adds 24/7 support and advanced automation. Customer Service Management adds **$1 per resolution** on top of agent seats . | Premium: **$55.28/agent/month**  | **Free**: 3 agents, unlimited customers, 2 GB storage, 100 emails/day  |
-| **[LiveAgent](https://www.liveagent.com/)** | Helpdesk with universal inbox for tickets, chats, calls, and social. **AI assistants run on your own AI provider account**—LiveAgent does not charge for AI. Starter up to 5 agents; Enterprise flat fee with 80 agents included . | Per-agent plans (Starter/Team/Business); Enterprise flat fee  | Free trial available; no permanent free tier  |
-| **[Deskpro](https://www.deskpro.com/)** | Helpdesk with multi-channel support and customizable ticket workflows. Cloud pricing is public: Team **$39/agent/month** (min 5), Professional **$59** (min 10), Enterprise **$99** (min 25) . | Team: **$39/agent/month** (min 5); Professional: $59; Enterprise: $99  | Free trial available  |
-| **[Kayako](https://kayako.com/)** | AI-first support platform with **$1 per AI resolution** pricing. No per-seat fees, no upsells. If the AI escalates to a human, you don't pay the $1 . | **$1 per AI resolution**  | No free tier; demo available  |
-| **[ServiceNow CSM](https://www.servicenow.com/)** | Enterprise customer service management. **Fulfiller seats roughly $100–$200/user/month** at smallest band, falling above 2,500 seats. Now Assist AI adds $25–$75/fulfiller/month on pre-2026 contracts; April 2026 tiers include AI with assist allocation . | Quote-only; ~$100–$200/fulfiller/month (smallest band)  | No free tier; demo via sales  |
-
-## Open-Source GitHub Projects
-
-| Project | Star Badge | Description |
-|---------|------------|-------------|
-| **[Chatwoot](https://github.com/chatwoot/chatwoot)** | [![Stars](https://img.shields.io/github/stars/chatwoot/chatwoot?style=social&color=white)](https://github.com/chatwoot/chatwoot/stargazers) | **The most adopted open-source customer engagement platform** (~28k stars, MIT). Omnichannel shared inbox covering live chat, email, WhatsApp, Facebook, Instagram, Telegram, and SMS in one queue. Multi-agent conversations, AI Captain for triage, and self-hostable or cloud. **The default pick when your support model is conversational rather than ticket-only** . |
-| **[Zammad](https://github.com/zammad/zammad)** | [![Stars](https://img.shields.io/github/stars/zammad/zammad?style=social&color=white)](https://github.com/zammad/zammad/stargazers) | **The cleanest open-source ticketing interface, closest to commercial SaaS.** AGPL-3.0, Ruby on Rails. Multi-channel intake (email, phone, chat, social media), ITIL-aligned workflows, time accounting, knowledge base, and SLA management. **No feature paywalls**—SSO, roles, and audit logs included. **Needs 4–8 GB RAM** (Elasticsearch is the main consumer) . |
-| **[FreeScout](https://github.com/freescout-help-desk/freescout)** | [![Stars](https://img.shields.io/github/stars/freescout-help-desk/freescout?style=social&color=white)](https://github.com/freescout-help-desk/freescout/stargazers) | **The best lightweight open-source Help Scout alternative.** PHP/Laravel. Runs on **1–2 GB RAM** and is designed for shared hosting. Shared inbox, conversation threading, customer profiles, knowledge base, customer portal, mobile apps. **Core free; Modules marketplace for advanced features** (WhatsApp, custom fields, etc.) . |
-| **[Helpdock](https://github.com/Docker-Hunterpedia/Helpdock)** | [![Stars](https://img.shields.io/github/stars/Docker-Hunterpedia/Helpdock?style=social&color=white)](https://github.com/Docker-Hunterpedia/Helpdock/stargazers) | **Modern multi-brand open-source support platform with built-in AI.** Self-hosted alternative to Zoho Desk/Zendesk. Features ticketing, help center, live chat widget, and grounded AI. **Importers for Zendesk, Freshdesk, and Zoho Desk** with dry-run previews. Multi-brand with row-level security per tenant. SSO over SAML 2.0 and OIDC. Reports on ticket volume, first response, resolution times, SLA compliance, and CSAT. Docker Compose deployment (2 vCPU, 4 GB RAM) . |
-| **[osTicket](https://github.com/osTicket/osTicket)** | [![Stars](https://img.shields.io/github/stars/osTicket/osTicket?style=social&color=white)](https://github.com/osTicket/osTicket/stargazers) | **The most established open-source email-to-ticket system.** Deployed since 2013. PHP 8.2–8.4, MySQL. Integrates email, phone, and web forms into a simple multi-user interface. Lightweight (1–2 GB RAM). **Completely free** under GPL2. Best when you need straightforward email ticketing without modern omnichannel complexity . |
-
-### Additional Strong Open-Source Options
-
-| Project | Star Badge | Description |
-|---------|------------|-------------|
-| **[Frappe Helpdesk](https://github.com/frappe/helpdesk)** | [![Stars](https://img.shields.io/github/stars/frappe/helpdesk?style=social&color=white)](https://github.com/frappe/helpdesk/stargazers) | Modern ticketing built on Frappe framework (~3.5k stars, AGPL-3.0). SLAs with business hours, auto-assignment by priority/type/team/workload, **unlimited agents with no seat fees**, Google/Microsoft/OIDC sign-in, and **customer sync with ERPNext**. Trade-off: self-hosting means running the full Frappe stack (MariaDB, Redis, bench) . |
-| **[OTOBO](https://github.com/rotheross/otobo)** | [![Stars](https://img.shields.io/github/stars/rotheross/otobo?style=social&color=white)](https://github.com/rotheross/otobo/stargazers) | Open-source ticketing and ITSM system forked from OTRS. **ITSM add-on packages are free**. OpenID Connect, LDAP, and RADIUS sign-in included. **Production servers need at least 8 GB RAM** (16 GB recommended). Vendor support from €3,900/year. Best for IT teams wanting OTRS-style service desk without licence fees . |
-| **[Request Tracker (RT)](https://github.com/bestpractical/rt)** | [![Stars](https://img.shields.io/github/stars/bestpractical/rt?style=social&color=white)](https://github.com/bestpractical/rt/stargazers) | **Best for complex queues and granular permissions.** Rights per queue, group, and role; asset tracking built in; REST 2 API included. GPL-2.0, Perl. **No official Docker image for production**; SSO needs a web server module . |
-| **[UVdesk](https://github.com/uvdesk)** | [![Stars](https://img.shields.io/github/stars/uvdesk?style=social&color=white)](https://github.com/uvdesk/stargazers) | Open-source helpdesk on Symfony/PHP with customer portal and knowledge base. Unlimited agents, teams, and mailboxes in free edition. **No SSO for agents and no audit log**; no new release since September 2025—check recent activity before committing . |
-| **[Libredesk](https://github.com/abhinavxd/libredesk)** | [![Stars](https://img.shields.io/github/stars/abhinavxd/libredesk?style=social&color=white)](https://github.com/abhinavxd/libredesk/stargazers) | Open-source customer support inbox for email and live chat, written in Go. **Single Go binary**—significantly simpler deployment than PHP or Ruby stacks. Newer project worth watching for teams wanting minimal infrastructure footprint . |
-
-**Frameworks for building custom systems**: Choose **Chatwoot** for conversational omnichannel support (live chat + messaging apps + email), **Zammad** for the closest commercial SaaS ticketing experience with no feature paywalls, **FreeScout** for lightweight shared-inbox on minimal hardware, **Helpdock** for multi-brand operations with built-in migration importers and AI, and **Frappe Helpdesk** for ERPNext integration—all deployable on a VPS without per-agent licensing .
-
-## How to Contribute
-
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format).
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-4. Submit PR with a short explanation.
-
-Star the repo if you find it useful!
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-- Ticketing systems handle customer PII and support conversations; enforce role-based access, audit logging, and compliance with applicable data protection regulations.
-- **Open-source ticketing TCO is not zero.** Zammad needs 4–8 GB RAM ; OTOBO needs 8–16 GB . Budget infrastructure, admin time, backups, and security hardening. **SaaS pricing is shifting toward AI outcomes.** Kayako charges **$1 per AI resolution** with no seat fees , Zendesk is moving to outcome-based billing with unlimited seats , and Freshdesk includes 500 free Freddy AI sessions before charging $49/100 . Verify current pricing against vendor pages before committing.
+Comprehensive guide for customer support managers, IT service desk leads, sysadmins, and software engineers seeking ticket management platforms, SLA monitoring, multi-channel customer communication tools, and data-sovereign helpdesks.
 
 ---
 
-**Made for support operations managers, helpdesk administrators, IT service teams, and developers building ticketing infrastructure.**  
-Let's make customer support ticketing more open, affordable, and agent-friendly.
+## Table of Contents
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+- [SaaS & Hosted Platforms](#saas--hosted-platforms)
+- [Open-Source GitHub Projects](#open-source-github-projects)
+- [Architecture & Self-Hosting Considerations](#architecture--self-hosting-considerations)
+- [How to Contribute](#how-to-contribute)
+- [License & Disclaimer](#license--disclaimer)
+
+---
+
+## Sector Overview & Market Dynamics
+
+The global customer support ticketing and helpdesk software market is valued at approximately **$8 billion to $15 billion** (scaling past **$50 billion** when accounting for the broader CRM and customer service software sector), expanding at an estimated **8% to 10% CAGR**. The market structure is **moderately fragmented overall but consolidated at the enterprise tier**: mega-platforms (such as ServiceNow, Atlassian, Zendesk, and Freshworks) dominate large-enterprise spend due to deep ecosystem lock-in, omnichannel voice/chat routing, and proprietary generative AI investments, while a vibrant, fragmented long tail of specialized SaaS and self-hosted open-source software serves SMBs, privacy-conscious teams, and developer-centric organizations seeking data sovereignty.
+
+---
+
+## SaaS & Hosted Platforms
+
+| Product | Company Size (Rev / Valuation) | Pricing (Starting Paid Tier) | Free Tier / Free Trial Limits | Description |
+|:---|:---|:---|:---|:---|
+| **[ServiceNow CSM](https://www.servicenow.com/)** | ~$15.4B TTM Rev / ~$112B MCap | Standard: **$100/agent/month** (annual contract) | **No free tier**; 14-day guided proof-of-concept trial via enterprise sales. | Enterprise-grade digital workflow engine providing ITIL-aligned case management, omni-channel routing, field service coordination, and AI assist. |
+| **[Jira Service Management](https://www.atlassian.com/software/jira/service-management)** | ~$6.57B FY26 Rev / ~$42B MCap | Standard: **$23.73/agent/month** (billed annually) | **Free plan forever**: up to 3 agents, unlimited customers, 2 GB file storage, and 100 email notifications/day. | Atlassian's ITSM and customer service platform built natively on Jira, featuring incident/problem management, asset tracking, and native Confluence integration. |
+| **[Zoho Desk](https://www.zoho.com/desk/)** | ~$1.5B Rev / ~$12B Est. Val | Standard: **$14/agent/month** (billed annually) | **Free plan forever**: up to 3 agents, basic email ticketing, customer management, and private knowledge base. 15-day free trial on paid plans (no credit card required). | Context-aware cloud ticketing system with multi-department support, SLA escalations, Zia AI, and deep integration with the Zoho SaaS suite. |
+| **[Zendesk Support](https://www.zendesk.com/)** | ~$2.0B ARR / ~$10.2B Acq. Val | Support Team: **$19/agent/month** (billed annually) | **No free tier**; 14-day full-featured free trial with sample data and test ticketing access (no credit card required). | Industry-benchmark customer service software offering unified ticket queues, multi-channel intake, trigger-based automations, and outcome-based AI. |
+| **[Freshdesk](https://www.freshworks.com/freshdesk/)** | ~$839M Rev / ~$3.3B MCap | Growth: **$29/agent/month** (billed annually) | **No permanent free tier**; 14-day free trial of Enterprise tier (up to 10 agents, includes 500 Freddy AI sessions, no credit card required). | Multi-channel cloud ticketing system featuring Freddy AI automated triage, collision detection, custom ticketing fields, and workflow automations. |
+| **[Front](https://front.com/)** | ~$100M ARR / ~$1.7B Val | Starter: **$25/seat/month** (billed annually, min 2 seats) | **No free tier**; 14-day free trial of Professional plan (access to omnichannel integrations and automated rules, no credit card required). | Customer communication hub unifying email, SMS, and live chat into team-shared inboxes with internal comments, collision avoidance, and automated routing. |
+| **[Help Scout](https://www.helpscout.com/)** | ~$35M ARR / ~$150M Est. Val | Standard: **$25/user/month** (billed annually) | **Free plan forever**: up to 5 users, 1 shared mailbox, and 1 Docs knowledge base site (available for non-profits & micro-teams). 15-day free trial on paid tiers. | Clean, collaborative shared inbox designed for human-centric customer support with integrated help center docs, live chat beacons, and AI drafting. |
+| **[Deskpro](https://www.deskpro.com/)** | ~$10M ARR / ~$25M Funded | Team: **$39/agent/month** (billed annually, min 5 agents) | **No free tier**; 14-day full-featured Cloud free trial (includes live chat, omnichannel ticketing, and reporting, no credit card required). | Flexible multi-channel helpdesk available both as managed cloud SaaS and on-premise deployment with custom ticketing workflows and CRM integrations. |
+| **[LiveAgent](https://www.liveagent.com/)** | ~$8M ARR / Profitable Bootstrapped | Small: **$15/agent/month** (billed annually) | **No permanent free tier**; 14-day or 30-day free trial with full access to live chat, ticketing, call center, and customer portals (no credit card required). | Omnichannel helpdesk with live chat, ticket management, built-in call center software, gamification, and BYO-AI provider integration. |
+| **[Kayako](https://kayako.com/)** | ~$5M ARR / Acquired (ESW Capital) | Inbox: **$15/agent/month** (or AI-first resolution model at $1/resolution) | **No free tier**; 14-day free trial with access to shared inbox, live chat, and automated conversations (credit card may be required upon signup). | Unified customer service platform linking shared conversations, customer journey timelines, self-service portals, and AI triage. |
+
+---
+
+## Open-Source GitHub Projects
+
+Curated list of production-ready open-source helpdesks, shared inboxes, and ITSM ticketing engines, sorted by GitHub stargazers:
+
+| Project | Stars | Language / Tech Stack | License | Key Highlights |
+|:---|:---:|:---|:---|:---|
+| **[Chatwoot](https://github.com/chatwoot/chatwoot)** | [![Stars](https://img.shields.io/github/stars/chatwoot/chatwoot?style=social&color=white)](https://github.com/chatwoot/chatwoot/stargazers) | Ruby / Vue.js | MIT | Leading open-source omnichannel customer engagement platform. Unifies live chat, email, WhatsApp, Facebook, Instagram, and Telegram into a real-time conversational inbox with multi-agent collision avoidance and AI assistance. |
+| **[UVdesk](https://github.com/uvdesk/community-skeleton)** | [![Stars](https://img.shields.io/github/stars/uvdesk/community-skeleton?style=social&color=white)](https://github.com/uvdesk/community-skeleton/stargazers) | PHP / Symfony | MIT | Modular and extensible enterprise-grade helpdesk system. Features automated email-to-ticket conversion, ticket dispatching workflows, customizable customer portals, and mailbox integrations. |
+| **[GLPI](https://github.com/glpi-project/glpi)** | [![Stars](https://img.shields.io/github/stars/glpi-project/glpi?style=social&color=white)](https://github.com/glpi-project/glpi/stargazers) | PHP / MySQL | GPL-3.0 | Comprehensive open-source IT asset management (ITAM) and ITIL Service Desk ticketing platform. Manages complex hardware/software inventories, financial tracking, SLAs, and customer trouble tickets. |
+| **[Papercups](https://github.com/papercups-io/papercups)** | [![Stars](https://img.shields.io/github/stars/papercups-io/papercups?style=social&color=white)](https://github.com/papercups-io/papercups/stargazers) | Elixir / TypeScript | MIT | Open-source live chat and conversational support widget designed as an alternative to Intercom and Drift. Features Slack and Mattermost syncing, webhooks, and modern developer APIs. |
+| **[Zammad](https://github.com/zammad/zammad)** | [![Stars](https://img.shields.io/github/stars/zammad/zammad?style=social&color=white)](https://github.com/zammad/zammad/stargazers) | Ruby on Rails / Elasticsearch | AGPL-3.0 | Modern, full-featured web-based helpdesk closest to commercial SaaS. Provides complete multi-channel ticketing (email, telephone/CTI, chat, social media), ITIL workflows, SLA timers, audit logs, and customer self-service. |
+| **[FreeScout](https://github.com/freescout-help-desk/freescout)** | [![Stars](https://img.shields.io/github/stars/freescout-help-desk/freescout?style=social&color=white)](https://github.com/freescout-help-desk/freescout/stargazers) | PHP / Laravel | AGPL-3.0 | Lightweight, self-hosted shared inbox and helpdesk alternative to Help Scout and Zendesk. Operates efficiently on low-spec hardware (1–2 GB RAM), with conversation threading, push notifications, and modular plugin support. |
+| **[osTicket](https://github.com/osTicket/osTicket)** | [![Stars](https://img.shields.io/github/stars/osTicket/osTicket?style=social&color=white)](https://github.com/osTicket/osTicket/stargazers) | PHP / MySQL | GPL-2.0 | Proven, widely deployed open-source customer support ticket system. Routes inquiries created via email, web forms, and phone into a multi-user web interface with auto-responder, SLA management, and internal notes. |
+| **[Chaskiq](https://github.com/chaskiq/chaskiq)** | [![Stars](https://img.shields.io/github/stars/chaskiq/chaskiq?style=social&color=white)](https://github.com/chaskiq/chaskiq/stargazers) | Ruby on Rails / React | GPL-3.0 | Full-featured conversational marketing and customer support platform. Combines live web chat widgets, automated conversational bots, newsletters, onboarding tours, and multi-channel messaging. |
+| **[Frappe Helpdesk](https://github.com/frappe/helpdesk)** | [![Stars](https://img.shields.io/github/stars/frappe/helpdesk?style=social&color=white)](https://github.com/frappe/helpdesk/stargazers) | Python / Frappe / Vue | AGPL-3.0 | Modern open-source helpdesk tool built on the Frappe framework. Delivers clean ticket routing, customer portal, SLA tracking, team assignment, and native two-way synchronization with ERPNext CRM. |
+| **[Peppermint](https://github.com/Peppermint-Lab/peppermint)** | [![Stars](https://img.shields.io/github/stars/Peppermint-Lab/peppermint?style=social&color=white)](https://github.com/Peppermint-Lab/peppermint/stargazers) | TypeScript / Node.js | AGPL-3.0 | Modern and fast open-source ticket and issue management system designed as a lightweight self-hosted alternative to Jira Service Desk and Zendesk. |
+| **[Libredesk](https://github.com/abhinavxd/libredesk)** | [![Stars](https://img.shields.io/github/stars/abhinavxd/libredesk?style=social&color=white)](https://github.com/abhinavxd/libredesk/stargazers) | Go / SQLite | AGPL-3.0 | Single-binary, self-hosted customer support desk and live chat system written in Go. Minimal resource footprint, zero external database requirements, and rapid deployment. |
+| **[Helpy](https://github.com/helpyio/helpy)** | [![Stars](https://img.shields.io/github/stars/helpyio/helpy?style=social&color=white)](https://github.com/helpyio/helpy/stargazers) | Ruby on Rails / PostgreSQL | MIT | Mobile-friendly, modern open-source helpdesk software with integrated knowledge base, multi-lingual support, email ticketing queues, and community discussion boards. |
+| **[Trudesk](https://github.com/polonel/trudesk)** | [![Stars](https://img.shields.io/github/stars/polonel/trudesk?style=social&color=white)](https://github.com/polonel/trudesk/stargazers) | JavaScript / Node.js / MongoDB | Apache-2.0 | Clean, real-time open-source helpdesk platform with built-in chat, ticket assignment, dashboard analytics, and notifications via WebSockets. |
+| **[iTop](https://github.com/Combodo/iTop)** | [![Stars](https://img.shields.io/github/stars/Combodo/iTop)?style=social&color=white](https://github.com/Combodo/iTop/stargazers) | PHP / MySQL | AGPL-3.0 | ITIL-compliant IT Service Management (ITSM) tool with a comprehensive Configuration Management Database (CMDB), helpdesk ticketing, change management, and service catalog. |
+| **[Request Tracker (RT)](https://github.com/bestpractical/rt)** | [![Stars](https://img.shields.io/github/stars/bestpractical/rt?style=social&color=white)](https://github.com/bestpractical/rt/stargazers) | Perl / PostgreSQL / MySQL | GPL-2.0 | Enterprise-grade issue tracking and ticketing system deployed worldwide by Fortune 500s and government entities. Offers fine-grained access control, PGP/S-MIME encryption, and custom workflow scrips. |
+| **[OTOBO](https://github.com/RotherOSS/otobo)** | [![Stars](https://img.shields.io/github/stars/RotherOSS/otobo?style=social&color=white)](https://github.com/RotherOSS/otobo/stargazers) | Perl / MariaDB | GPL-3.0 | Enterprise IT service desk and ticket management platform forked from OTRS. Features ITIL-aligned service management, CMDB, customer self-service portal, and OpenID Connect / SAML authentication. |
+| **[Helpdock](https://github.com/Docker-Hunterpedia/Helpdock)** | [![Stars](https://img.shields.io/github/stars/Docker-Hunterpedia/Helpdock?style=social&color=white)](https://github.com/Docker-Hunterpedia/Helpdock/stargazers) | TypeScript / Next.js / Docker | MIT | Multi-brand self-hosted support platform featuring AI-assisted ticket resolution, help center CMS, live chat widget, and automated data importers for Zendesk, Freshdesk, and Zoho Desk. |
+
+---
+
+## Architecture & Self-Hosting Considerations
+
+When evaluating self-hosted ticketing systems vs. managed SaaS platforms, consider total cost of ownership (TCO) and operational requirements:
+
+- **Resource Footprint**:
+  - *Lightweight (< 2 GB RAM)*: **Libredesk** (single Go binary), **FreeScout** (PHP/Laravel), and **osTicket** run smoothly on low-cost VPS instances or shared hosting.
+  - *Mid to Heavy (4–16 GB RAM)*: **Zammad** (requires Elasticsearch + Redis + PostgreSQL/MySQL), **GLPI**, and **OTOBO** demand dedicated resources for indexing, complex search, and asset relationship mapping.
+- **Data Sovereignty & Compliance**: Self-hosted solutions provide strict boundary control over Personally Identifiable Information (PII), customer communication archives, and HIPAA/GDPR data residency obligations without vendor lock-in.
+- **Email Deliverability**: Ensure proper SPF, DKIM, DMARC, and reverse DNS records are configured when hosting SMTP/IMAP-driven ticket engines.
+
+---
+
+## How to Contribute
+
+Contributions, project suggestions, and documentation fixes are warmly welcomed!
+
+1. Fork this repository.
+2. Create a descriptive feature branch (`git checkout -b add-new-ticketing-tool`).
+3. Add your suggested SaaS product or open-source repository following the table formatting:
+   - For SaaS: Product name, official link, company size (revenue/valuation), specific starting price, exact free tier / trial terms, and concise description.
+   - For Open-Source: GitHub repo URL, star badge `[![Stars](https://img.shields.io/github/stars/<owner>/<repo>?style=social&color=white)](https://github.com/<owner>/<repo>/stargazers)`, primary language/stack, license, and key highlights.
+4. Verify all markdown links and ensure proper chronological or sorted order.
+5. Commit your changes and open a Pull Request.
+
+---
+
+## License & Disclaimer
+
+- Distributed under the [Creative Commons CC0 1.0 Universal](LICENSE) (Public Domain Dedication).
+- Pricing figures, trial terms, and market valuations are approximate, compiled from publicly available investor disclosures, corporate filings, and vendor sites as of 2025/2026. Always confirm current rates directly with product vendors prior to commercial procurement.
